@@ -8,8 +8,6 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.boolean :in_business
       t.timestamp :opening
       t.timestamp :closing
-
     end
   end
-
 end
