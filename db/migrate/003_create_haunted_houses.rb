@@ -9,6 +9,6 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.timestamp :opening
       t.timestamp :closing
       t.text :long_description
-    end 
+    end
   end
 end
